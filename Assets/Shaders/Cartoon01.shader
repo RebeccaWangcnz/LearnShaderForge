@@ -72,10 +72,9 @@ Shader "Shader Forge/Cartoon01" {
                 float _DarkPartLimit_var = UNITY_ACCESS_INSTANCED_PROP( Props, _DarkPartLimit );
                 float node_7724 = step(node_8116,_DarkPartLimit_var);
                 float4 _DarkPark_var = UNITY_ACCESS_INSTANCED_PROP( Props, _DarkPark );
-                float3 node_3666 = ((_BrightPart_var.rgb*node_987)+(node_7724*_DarkPark_var.rgb));
                 float node_2176 = (node_987+node_7724);
                 float4 _MidllePart_var = UNITY_ACCESS_INSTANCED_PROP( Props, _MidllePart );
-                float3 emissive = (node_3666+((1.0 - node_2176)*_MidllePart_var.rgb));
+                float3 emissive = (((_BrightPart_var.rgb*node_987)+(node_7724*_DarkPark_var.rgb))+((1.0 - node_2176)*_MidllePart_var.rgb));
                 float3 finalColor = emissive;
                 return fixed4(finalColor,1);
             }

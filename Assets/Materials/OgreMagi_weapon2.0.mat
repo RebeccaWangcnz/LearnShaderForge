@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: OgreMagi_weapon2.0
+  m_Shader: {fileID: 4800000, guid: 39f30eabfb511714e9230ff1177bde37, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Cubemap:
+        m_Texture: {fileID: 8900000, guid: 70a96d48f0eaf674ea57f91141345cd7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DiffuseRampTex:
+        m_Texture: {fileID: 2800000, guid: 8f26aed438ec12d4492bfb341ec68e7d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmitTex:
+        m_Texture: {fileID: 2800000, guid: ff3ab754046e35c4e81865a52784563f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FresnelRampTex:
+        m_Texture: {fileID: 2800000, guid: bf94c0f41a815a946b2816d975f36eab, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 57c66f3bd6487bb4982103ff7f31c3f8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 2800000, guid: c355f6de9fb743243982c2288716a566, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetalnessMask:
+        m_Texture: {fileID: 2800000, guid: 351eee2f3516cb84188047d6972bb730, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormTex:
+        m_Texture: {fileID: 2800000, guid: 25ab72cb364ce574285a6aadee47b68c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Cutoff: 0.5
+    - _EmitInt: 1.46
+    - _EnvDiffInt: 0.84
+    - _EnvSpecInt: 2.18
+    - _FresnelPower: 1
+    - _MipLevel: 1
+    - _RimInt: 5
+    - _SpecInt: 1.2
+    - _SpecPow: 6
+    - _SpecularPower: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EnvCol: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _EnvDownCol: {r: 0, g: 0.4220598, b: 1, a: 1}
+    - _EnvSideCol: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _EnvUpperCol: {r: 1, g: 0, b: 0, a: 1}
+    - _LightCol: {r: 0.8915094, g: 0.995594, b: 1, a: 1}
+    - _MainColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _RimCol: {r: 0.7490196, g: 0.7490196, b: 0.7490196, a: 1}

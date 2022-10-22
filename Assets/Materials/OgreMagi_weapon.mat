@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: OgreMagi_weapon
+  m_Shader: {fileID: 4800000, guid: dbf818a80a810fc4b97fae1c6df1b14c, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseTintTex:
+        m_Texture: {fileID: 2800000, guid: 8c3ed83518492854d90aae078e7cdc0d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cubemap:
+        m_Texture: {fileID: 8900000, guid: 017c8b00fd40b1e459a153434d7339ab, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmitTex:
+        m_Texture: {fileID: 2800000, guid: ff3ab754046e35c4e81865a52784563f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: a88aa7e4ed4956f49af0eb921e7ce7dd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetalMask:
+        m_Texture: {fileID: 2800000, guid: 351eee2f3516cb84188047d6972bb730, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormTex:
+        m_Texture: {fileID: 2800000, guid: 25ab72cb364ce574285a6aadee47b68c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RimlightTex:
+        m_Texture: {fileID: 2800000, guid: 788d49bc03d5f274fae9c4dcbc5eac2b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularExp:
+        m_Texture: {fileID: 2800000, guid: a595a33bdf5314844b8b7ba599334f2d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularMask:
+        m_Texture: {fileID: 2800000, guid: 80574395b6102a942a33dcc888dd98c7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TransTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _EmitInt: 0.68
+    - _EnvDiffInt: 0.214
+    - _EnvSpecInt: 1
+    - _FresnelPower: 2.79
+    - _MipLevel: 1
+    - _SpecularPower: 1
+    m_Colors:
+    - _EnvDownCol: {r: 1, g: 0.4707027, b: 0, a: 1}
+    - _EnvSideCol: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _EnvUpperCol: {r: 0, g: 0.8057432, b: 1, a: 1}
+    - _MainColor: {r: 1, g: 1, b: 1, a: 1}

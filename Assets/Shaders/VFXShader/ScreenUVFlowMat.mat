@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ScreenUVFlowMat
+  m_Shader: {fileID: 4800000, guid: f0662b32c233c5b4387ec5764bf65354, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 4094d8d3987c36b4cb3d5d148222b68b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ScreenTex:
+        m_Texture: {fileID: 2800000, guid: faec3db81577ffb4c8b8119c5185c8a1, type: 3}
+        m_Scale: {x: 1.2, y: 0.98}
+        m_Offset: {x: 12.91, y: -0.91}
+    m_Floats:
+    - _Opacity: 1
+    m_Colors: []
